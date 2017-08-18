@@ -15,5 +15,5 @@ def NewGame():
 		
 		aksAgain = input(' Deseas seguir jugando?:  Y/N ')
 		""" Verificamos que su respuesta no sea un no, en caso de serlo rompremos el ciclo """
-		if aksAgain in ["N","NO","n","noc"]:
+		if aksAgain in ["N","NO","n","no"]:
 			break
